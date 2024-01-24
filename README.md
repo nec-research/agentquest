@@ -1,10 +1,3 @@
-# TODOs
-- Check LICENSE
-- Check that no API keys are committed
-- Check "How to write a custom driver?" README section
-- Examples with agents
-- Examples with metrics
-
 # README
 
 This repository contains the code for the demo paper:
