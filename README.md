@@ -15,9 +15,9 @@ This repository contains the code for the demo paper:
 - [Structure of This Repo](#structure-of-this-repo)
 - [Prerequisites](#prerequisites)
 - [How to Install and Test a Benchmark?](#how-to-install-and-test-a-benchmark)
-- [How to Use an LLM Agent?](#how-to-use-an-llm-agent)
 - [How to Write a Custom Driver?](#how-to-write-a-custom-driver)
 - [How to Use a Driver?](#how-to-use-a-driver)
+- [How to Use an LLM Agent?](#how-to-use-an-llm-agent)
 
 
 ## Structure of This Repo
@@ -92,11 +92,6 @@ ln -s $PWD/benchmarks/alfworld/alfworld_data /tmp/alfworld_data
 ```
 
 
-## How to Use an LLM agent?
-We provide a set of [examples](/agents/) showcasing how to implement an LLM agent to solve the MasterMind benchmark. Generalizing to other benchmarks is straightforward.
-
-**Note** All the examples require to configure OpenAI/Azure API keys.
-
 ## How to write a custom driver?
 
 A driver is a wrapper allowing a user (human, LLM agent, generic script, etc.) to interact with an environment (e.g., AlfWorld, Mastermind).
@@ -120,7 +115,7 @@ The folder contains the script `CUSTOM_BENCHMARK_driver.py` and the `__init__.py
     - an empty `README.md` file for the benchmark documentation
     - an empty `requirements.txt` file for the python requirements of the benchmark
     - an empty `setup.sh` file as installation script.
-- the `data/CUSTOM_BENCHMARK` folder for the instances of the benchmark.
+- the `agentquest/data/CUSTOM_BENCHMARK` folder for the instances of the benchmark.
 
 After having designed the driver and the benchmark, remember to provide documentation, requirements and setup instructions through the files in `benchmarks/CUSTOM_BENCHMARK`.
 
@@ -147,7 +142,7 @@ class Observation():
 Actions allows the user to interact with the environment changing its status. We provide a template with one mandatory attribute:
 - `action_value`. A string that, once processed by the driver, triggers the environment change.
 
-To customize the interactions, you can define optional attributes. In the following we provide an overview of the `Observation` class
+To customize the interactions, you can define optional attributes. In the following we provide an overview of the `Action` class
 
 ```python
 class Action():
@@ -348,3 +343,7 @@ obs.output, obs.done
 ```
 
 
+## How to Use an LLM agent?
+We provide a set of [examples](/agents/) showcasing how to implement an LLM agent to solve the MasterMind benchmark. Generalizing to other benchmarks is straightforward.
+
+**Note** All the examples require to configure OpenAI/Azure API keys.

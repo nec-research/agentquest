@@ -22,13 +22,13 @@ init-%:
 	touch benchmarks/$*/setup.sh
 	touch benchmarks/$*/requirements.txt
 	mv .templates/README.md benchmarks/$*/
-	mkdir data/$*
+	mkdir agentquest/data/$*
 
 clean-%:
 	@echo "Removing benchmark: $*"
 	rm -rf agentquest/drivers/$*
 	rm -rf benchmarks/$*
-	rm -rf data/$*
+	rm -rf agentquest/data/$*
 
 # Define the rule to install benchmarks
 installall: $(BENCHMARK_NAMES)
