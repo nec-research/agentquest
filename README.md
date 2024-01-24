@@ -1,8 +1,9 @@
 # TODOs
 - Check LICENSE
 - Check that no API keys are committed
-- Check custom drivers README section
+- Check "How to write a custom driver?" README section
 - Examples with agents
+- Examples with metrics
 
 # README
 
@@ -14,9 +15,9 @@ This repository contains the code for the demo paper:
 - [Structure of This Repo](#structure-of-this-repo)
 - [Prerequisites](#prerequisites)
 - [How to Install and Test a Benchmark?](#how-to-install-and-test-a-benchmark)
+- [How to Use an LLM Agent?](#how-to-use-an-llm-agent)
 - [How to Write a Custom Driver?](#how-to-write-a-custom-driver)
 - [How to Use a Driver?](#how-to-use-a-driver)
-- [How to Use an LLM Agent?](#how-to-use-an-llm-agent)
 
 
 ## Structure of This Repo
@@ -94,7 +95,7 @@ ln -s $PWD/benchmarks/alfworld/alfworld_data /tmp/alfworld_data
 ## How to Use an LLM agent?
 We provide a set of [examples](/agents/) showcasing how to implement an LLM agent to solve the MasterMind benchmark. Generalizing to other benchmarks is straightforward.
 
-
+**Note** All the examples require to configure OpenAI/Azure API keys.
 
 ## How to write a custom driver?
 
