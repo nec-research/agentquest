@@ -1,10 +1,14 @@
+# TODOs
+- Check LICENSE
+- Check that no API keys are committed
+- Check custom drivers README section
+- Examples with agents
+
 # README
 
 This repository contains the code for the demo paper:
 
 **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents**
-
-# `TODO` ADD license headers
 
 ## Table of Contents
 - [Structure of This Repo](#structure-of-this-repo)
@@ -15,24 +19,15 @@ This repository contains the code for the demo paper:
 - [How to Use an LLM Agent?](#how-to-use-an-llm-agent)
 
 
-
-# TODO comment `data` folder moved under `agentquest` to avoid absolute paths
-
-
 ## Structure of This Repo
 This repo is organized as follows:
 - `agentquest` folder. It contains the main libraries and drivers needed 
 to run and evaluate the benchmarks
 - `benchmarks` folder. It contains the documentation, the python requirements and
 the installation script (`setup.sh`) of each benchmark
-- `data` folder. It contains the instances of each benchmark (e.g., games or tasks)
 - `examples` folder. It contains one instance of each benchmark callable from 
 command line or jupyter notebook.
 - `agents` folder. It contains examples on how to implement LLM agents through different frameworks testing one benchmark.
-
-
-
-
 
 
 ## Prerequisites
@@ -100,7 +95,6 @@ ln -s $PWD/benchmarks/alfworld/alfworld_data /tmp/alfworld_data
 We provide a set of [examples](/agents/) showcasing how to implement an LLM agent to solve the MasterMind benchmark. Generalizing to other benchmarks is straightforward.
 
 
-# TODO test from here on
 
 ## How to write a custom driver?
 
