@@ -37,6 +37,7 @@ class MasterMindDriver():
     def step(self, action):
         # Retrieve the action value
         action = action.action_value[:len(self.split_truth)]
+        self.state = action
 
         # If the guess is correct, end the game
         if action == self.truth:

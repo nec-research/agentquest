@@ -1,5 +1,7 @@
 import importlib.resources
 import json
+import pprint
+from termcolor import colored
 
 class Observation():
     def __init__(self, output:str, done:bool):
@@ -30,3 +32,16 @@ def load_data(benchmark, category=None):
             raise ValueError(f'You must provide one category among {categories}')    
     else:
         raise ValueError(f'You must provide one category among {categories}')
+
+def cpprint(data, color='white'):
+    # Convert the data to a formatted string
+    formatted_data = pprint.pformat(data)
+    # Colorize the formatted string
+    colored_data = colored(formatted_data\
+                                .replace('\\n', '')
+                                .replace('(', '')
+                                .replace(')', '')
+                                .replace("\'", ''), color)
+    
+    # Print the colored and formatted data
+    print(colored_data)

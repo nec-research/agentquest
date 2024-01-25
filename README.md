@@ -32,9 +32,9 @@ $ pip3 install -e .
 ```
 or
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -e .
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -e .
 ```
 
 
@@ -338,5 +338,10 @@ obs.output, obs.done
 
 ## How to Use an LLM agent?
 We provide a set of [examples](/agents/) showcasing how to implement an LLM agent to solve the MasterMind benchmark. Generalizing to other benchmarks is straightforward.
+
+- `mastermind-openai-chat-model-with-metrics.ipynb`: MasterMind benchmark with OpenAI Simple Chat model and computation of Progress and Repetition Rates metrics
+- `mastermind-langchain-chat-model.ipynb`: MasterMind benchmark with LangChain Simple Chat model
+- `mastermind-langchain-react.ipynb`: MasterMind benchmark with ReAct agent
+- `mastermind-langchain-openai-assistant.ipynb`: MasterMind benchmark with OpenAI Assistant
 
 **Note** All the examples require to configure OpenAI/Azure API keys.
