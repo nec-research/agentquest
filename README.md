@@ -4,6 +4,19 @@ This repository contains the code for the demo paper:
 
 **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents**
 
+Preprint: [https://arxiv.org/abs/2404.06411](https://arxiv.org/abs/2404.06411)
+
+If you use `AgentQuest` for your research, please cite the following paper:
+
+```
+@inproceedings{gioacchini2024agentquest,
+  title={AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents},
+  author={Gioacchini, Luca and Siracusano, Giuseppe and Sanvito, Davide and Gashteovski, Kiril and Friede, David and Bifulco, Roberto and Lawrence, Carolin},
+  booktitle={Proceedings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  year={2024}
+}
+```
+
 ## Table of Contents
 - [Structure of This Repo](#structure-of-this-repo)
 - [Prerequisites](#prerequisites)
