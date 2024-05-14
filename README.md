@@ -4,7 +4,8 @@ This repository contains the code for the demo paper:
 
 **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents**
 
-Preprint: [https://arxiv.org/abs/2404.06411](https://arxiv.org/abs/2404.06411)
+- Preprint: [https://arxiv.org/abs/2404.06411](https://arxiv.org/abs/2404.06411)
+- Video: [https://youtu.be/0JNkIfwnoak](https://youtu.be/0JNkIfwnoak)
 
 If you use `AgentQuest` for your research, please cite the following paper:
 
@@ -16,6 +17,8 @@ If you use `AgentQuest` for your research, please cite the following paper:
   year={2024}
 }
 ```
+
+If you are interested in accessing the AgentQuest GUI presented at the NAACL 2024 Demo Session, please contact us.
 
 ## Table of Contents
 - [Structure of This Repo](#structure-of-this-repo)
