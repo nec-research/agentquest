@@ -66,6 +66,7 @@ By default we provide the following benchmarks:
 |---|:---:|:---:|
 | [MasterMind](/benchmarks/mastermind/README.md) | Deductive | 5 |
 | [AlfWorld](/benchmarks/alfworld/README.md) | Embodied | 6 |
+| [Sudoku](/benchmarks/sudoku/README.md) | Spatial | 3 |
 
 ### Installing a Benchmark
 
@@ -81,7 +82,7 @@ Otherwise, to install a specific benchmark you can run
 ```bash
 $ make install-BENCHMARK_NAME
 ```
-where `BENCHMARK_NAME` is one among `mastermind` or `alfworld`.
+where `BENCHMARK_NAME` is one among `mastermind`, `alfworld` or `sudoku`.
 
 ### Testing a Benchmark
 In the `example` folder we provide two ways to test each benchmark. 
