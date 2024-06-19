@@ -4,7 +4,7 @@ This repository contains the code for the demo paper:
 
 **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents**
 
-- Preprint: [https://arxiv.org/abs/2404.06411](https://arxiv.org/abs/2404.06411)
+- Paper: [https://aclanthology.org/2024.naacl-demo.19.pdf](https://aclanthology.org/2024.naacl-demo.19.pdf)
 - Video: [https://youtu.be/0JNkIfwnoak](https://youtu.be/0JNkIfwnoak)
 
 If you use `AgentQuest` for your research, please cite the following paper:
@@ -13,8 +13,11 @@ If you use `AgentQuest` for your research, please cite the following paper:
 @inproceedings{gioacchini2024agentquest,
   title={AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents},
   author={Gioacchini, Luca and Siracusano, Giuseppe and Sanvito, Davide and Gashteovski, Kiril and Friede, David and Bifulco, Roberto and Lawrence, Carolin},
-  booktitle={Proceedings of the 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  year={2024}
+  booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: System Demonstrations)",
+  month = jun,
+  year = "2024",
+  publisher = "Association for Computational Linguistics",
+  pages = "185--193"
 }
 ```
 
