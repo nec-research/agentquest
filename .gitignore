@@ -3,3 +3,4 @@
 .venv
 *egg-info
 alfworld_data
+.env
