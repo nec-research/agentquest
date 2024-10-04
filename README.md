@@ -70,6 +70,7 @@ By default we provide the following benchmarks:
 | [MasterMind](/benchmarks/mastermind/README.md) | Deductive | 5 |
 | [AlfWorld](/benchmarks/alfworld/README.md) | Embodied | 6 |
 | [Sudoku](/benchmarks/sudoku/README.md) | Spatial | 3 |
+| [AutoPenBench](/benchmarks/autopenbench/README.md) | Logic | 2 (5 sub-categories) |
 
 ### Installing a Benchmark
 
