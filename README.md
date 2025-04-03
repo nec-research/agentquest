@@ -1,5 +1,7 @@
 # README
 
+> ⚠️ The previous version of AgentQuest is available in the [v1](https://github.com/nec-research/agentquest/tree/v1) branch.
+
 AgentQuest is a leading benchmarking framework enabling developers to evaluate LLMs and LLM agents effortlessly across multiple industry benchmarks with just a few lines of code. It supports [various benchmarks](#supported-benchmarks) out of the box, testing a range of capabilities of LLM-based systems. Additionally, it provides base classes that can be extended to quickly add new benchmarks and evaluation metrics.
 
 This repository contains the code for the demo paper:
