@@ -1,0 +1,3 @@
+faiss-gpu
+gdown
+Werkzeug==2.2.2

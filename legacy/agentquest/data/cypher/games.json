@@ -1,0 +1,44 @@
+[
+    {"id": 0,
+    "clue": "mjhpjymzs",
+    "no_sub": "heckethun",
+    "answer": "hackathon",
+    "hints": [
+        "The shift step should be: 5",
+        "The shift direction should be: left",
+        "The substitution should be: e to a",
+        "The substitution should be: u to o",
+        "The word starts with letter: h",
+        "The word ends with letter: n"],
+    "sequence": [0, 1, 2, 3, 4, 5]},
+    {
+      "id": 1,
+      "clue": "erfoqaolhrk",
+      "no_sub": "huirtdrokun",
+      "answer": "heartbroken",
+      "hints": [
+        "The shift step should be: 3",
+        "The shift direction should be: right",
+        "The substitution should be: u to e",
+        "The substitution should be: i to a",
+        "The substitution should be: d to b",
+        "The word starts with letter: h",
+        "The word ends with letter: n"],
+     "sequence": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+        "id": 2,
+        "clue": "kyvgngdsq",
+        "no_sub": "maxipifus",
+        "answer": "malicious",
+        "hints": [
+          "The shift step should be: 2",
+          "The shift direction should be: right",
+          "The substitution should be: f to o",
+          "The substitution should be: p to c",
+          "The substitution should be: x to l",
+          "The word starts with letter: m",
+          "The word ends with letter: s"],
+       "sequence": [0, 1, 2, 3, 4, 5, 6]
+      }
+]

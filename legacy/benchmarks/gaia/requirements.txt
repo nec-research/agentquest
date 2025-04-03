@@ -1,0 +1,4 @@
+duckduckgo-search
+instructor
+openai
+pypdf

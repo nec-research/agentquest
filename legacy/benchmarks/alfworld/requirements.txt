@@ -1,0 +1,33 @@
+ai2thor==2.1.0
+Click<7.2.0
+cython
+fast-downward @ https://github.com/MarcCote/downward/archive/faster_replan.zip
+gym==0.15.4
+h5py
+h5py
+ipython
+matplotlib
+networkx
+nltk
+numpy #==1.16.2
+opencv-python
+pandas
+Pillow
+pillow
+pipreqs
+pycocotools
+pytz
+pyyaml
+revtok
+scipy
+tensorboardX==1.8
+textworld @ https://github.com/MarcCote/TextWorld/archive/handcoded_expert_integration.zip
+tokenizers
+torch>=1.2.0
+torchvision>=0.4.0
+tqdm
+tqdm
+transformers
+visdom
+vocab
+Werkzeug==2.2.2
