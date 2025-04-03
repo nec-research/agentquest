@@ -1,5 +1,7 @@
 # README
 
+> ⚠️ The latest version of AgentQuest is available in the [main](https://github.com/nec-research/agentquest/tree/main) branch.
+
 This repository contains the code for the demo paper:
 
 **AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents**
