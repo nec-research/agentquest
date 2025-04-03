@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "agentquest"
+version = "0.1.0"
+description = "A Modular Benchmark Framework to Measure Progress and Improve LLM Agents"
+authors = ["Biplab Gautam <biplab.gautam@neclab.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Levenshtein = "^0.26.1"
+termcolor = "^2.5.0"
+pydantic = "^2.9.2"
+numpy = "^1.24.0"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+pyenchant = "^3.2.2"
+datasets = "^3.1.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+black = "^24.10.0"
+python-dotenv = "^1.0.1"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+
+[tool.poetry.group.agents]
+optional = true
+
+[tool.poetry.group.agents.dependencies]
+langchain = "^0.3.6"
+llama-index = "^0.11.20"
+openai = "^1.58.1"
+langchain-community = "^0.3.13"
+langchain-openai = "^0.2.14"
+langfuse = "^2.59.3"
+
+[tool.poetry.group.alfworld]
+optional = true
+
+[tool.poetry.group.alfworld.dependencies]
+alfworld = "^0.3.5"
+h5py = "^3.12.1"
+pycocotools = "^2.0.8"
+transformers = "^4.46.2"
+visdom = "^0.2.4"
+gym = "^0.26.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
